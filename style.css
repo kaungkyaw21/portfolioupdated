@@ -1,0 +1,201 @@
+.logo{
+margin: 0 auto;
+display:block;
+}
+
+body{
+  font-family: 'Baskerville', cursive;
+  margin: 0;
+
+}
+
+h1{
+  font-family: 'Palatino', cursive;
+  font-size: 4em;
+  text-align: left;
+  color: #003663;
+  text-shadow:  1px 1px black;
+  font-weight: bold;
+}
+
+#navbarSupportedContent{
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  box-sizing: 1;
+
+}
+
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+nav{
+  background-color: navy;
+}
+nav ul{
+  list-style-type:none;
+  margin: 0 auto;
+}
+nav li{
+  display:inline;
+}
+nav a{
+  text-decoration:none;
+  padding-right:10px;
+  color: white;
+}
+
+
+
+
+main{
+  max-width: 1200px;
+  margin: 20px auto;
+  color: #003663;
+}
+table{
+  border-collapse:collapse;
+}
+td,th{
+  border:1px navy;
+  padding:10px;
+}
+th{
+  background-color:#darkgrey;
+  color:white ;
+}
+tr{
+  text-align: center;
+  background-color: #003663;
+}
+td{
+  text-align: left;
+}
+
+ul a, td a:link{
+  color: #003663;
+}
+ul a, td a:visited{
+  color: #003663;
+}
+ul a, td a:hover{
+  color: navy;
+}
+ul a, td a:active{
+  color: navy;
+
+}e
+
+img{
+  margin: 0 auto;
+}
+
+.col-sm-7 h3{
+
+  color: #003663;
+}
+
+.poem{
+  text-align: center;
+  font-style: italic;
+}
+
+blockquote{
+  margin: 30px 0;
+  padding-left: 20px;
+  color: 003663;
+}
+
+.icons .fa{
+  font-size: 5em;
+  color: #003663;
+}
+
+}
+.icons{
+  text-align: center;
+  padding: 40px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer{
+  background-color:#FFFFFF;
+  color: navy;
+  text-shadow:  .3px .3px black;
+  margin: 30px 0 0 0;
+  display: block;
+  border-top: #003663;
+
+}
+
+.footer1000{
+  padding: 30px 0;
+  color: black ;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.fa-linkedin, .fa-envelope-o, .fa-instagram{
+    font-size: 2em;
+    color: #003663;
+}
+
+footer a:link{
+  color: navy;
+}
+footer a:visited{
+  color: navy;
+}
+footer a:hover{
+  color: navy;
+}
+footer a:active{
+  color: navy;
+}
+
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px){
+  h1{
+    font-size: 2em;
+  }
+}
+
+/*CSS for Smartphone */
+@media only screen and (max-width: 768px){
+  h1{
+    font-size: 1.5em;
+  }
+}
+
+
+
+
+
